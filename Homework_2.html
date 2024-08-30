@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+        @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+        body{
+            font-family: "Amatic SC", sans-serif;
+            font-weight: 700;
+            background-color: #3C4361;
+            /* color: aliceblue; */
+        }
+        h1{
+            font-size: 5rem;
+            text-align: center;
+            color: #C6BBA4;
+        }
+        #and{
+            font-size: 2rem;
+        }
+
+        table,tr,td{
+            /* padding: 10px; */
+            border: 5px solid #3C4361;
+            border-collapse: collapse;
+            padding-inline: 1rem;
+            padding-block: 0.3rem;
+            cursor: pointer;
+        }
+        div{
+            padding: 0;
+            /* text-align: center; */
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+        }
+        div > h5,h6{
+            padding: 0;
+            margin: 0;
+        }
+
+        div h5{
+            font-size: 3rem;
+            font-weight: 700;
+            /* margin: 1px; */
+        }
+        div h6{
+            font-family: 'Arial Narrow Bold', sans-serif;
+            font-size: 7px;
+            font-weight: 900;
+        }
+
+        .light-red{
+            background-color: #D6838A;
+        }
+        .pink{
+            background-color: #B78F9F;
+        }
+        .purple{
+            background-color: #A19AB8;
+        }
+        .light-choco{
+            background-color: #AD9A86;
+        }
+        .old-grass{
+            background-color: #B1C699;
+        }
+        .grass{
+            background-color: #7EB278;
+        }
+        .light-grass{
+            background-color: #8CAF7E;
+        }
+        .oceanic-blue{
+            background-color: #76B8BB;
+        }
+        .lightSlateGray{
+            background-color: #929EB7;
+        }
+        .lightSteelBlue{
+            background-color: #A8C2CE;
+        }
+        .lightCoral{
+            background-color: #D6838A;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 18 -->
+    <table>
+        <caption>
+            <h1>ELEMENT NAMES <span id="and">AND</span> ATOMIC NUMBERS</h1>
+        </caption>
+        <tbody>
+            <!-- 1st row -->
+            <tr>
+                <td class="light-red" title="HYDROGEN"><div><h6>1</h6><h5>H</h5><h6>HYDROGEN</h6></div></td>
+                <td colspan="16"></td>
+                <td class="purple" title="HELIUM"><div><h6>2</h6><h5>HE</h5><h6>HELIUM</h6></div></td>
+            </tr>
+            <!--2nd row-->
+            <tr>
+                <td class="light-choco" title="LITHUM"><div><h6>3</h6><h5>LI</h5><h6>LITHUM</h6></div></td>
+                <td class="old-grass" title=""><div><h6>4</h6><h5>BE</h5><h6>BERYLLIUM</h6></div></td>
+                <td colspan="10"></td>
+                <td class="lightSlateGray" title="BORON"><div><h6>5</h6><h5>B</h5><h6>BORON</h6></div></td>
+                <td class="light-red" title="CARBON"><div><h6>6</h6><h5>C</h5><h6>CARBON</h6></div></td>
+                <td class="light-red" title="NITROGEN"><div><h6>7</h6><h5>N</h5><h6>NITROGEN</h6></div></td>
+                <td class="light-red" title="OXYGEN"><div><h6>8</h6><h5>O</h5><h6>OXYGEN</h6></div></td>
+                <td class="pink" title="FLUORINE"><div><h6>9</h6><h5>F</h5><h6>FLUORINE</h6></div></td>
+                <td class="purple" title="NEON"><div><h6>10</h6><h5>N</h5>NEON<h6></h6></div></td>
+            </tr>
+            <!--3rd row-->
+            <tr>
+                <td class="light-choco" title="SODIUM"><div><h6>11</h6><h5>NA</h5><h6>SODIUM</h6></div></td>
+                <td class="old-grass" title="MAGNESIUM"><div><h6>12</h6><h5>MG</h5><h6>MAGNESIUM</h6></div></td>
+                <td colspan="10"></td>
+                <td class="lightSteelBlue" title="ALUMINUM"><div><h6>13</h6><h5>AL</h5><h6>ALUMINUM</h6></div></td>
+                <td class="lightSlateGray" title="SILION"><div><h6>14</h6><h5>SI</h5><h6>SILION</h6></div></td>
+                <td class="light-red" title="PHOSPHOROUS"><div><h6>15</h6><h5>P</h5><h6>PHOSPHOROUS</h6></div></td>
+                <td class="light-red" title="SULFUR"><div><h6>16</h6><h5>S</h5><h6>SULFUR</h6></div></td>
+                <td class="pink" title="CHLORINE"><div><h6>17</h6><h5>CL</h5><h6>CHLORINE</h6></div></td>
+                <td class="purple" title="ARGON"><div><h6>18</h6><h5>AR</h5>ARGON<h6></h6></div></td>
+            </tr>
+            <!--4th row-->
+     
+            <tr>
+                <td class="light-choco" title="POTASSIUM"><div><h6>19</h6><h5>K</h5><h6>POTASSIUM</h6></div></td>
+                <td class="old-grass" title="CALCIUM"><div><h6>20</h6><h5>CA</h5><h6>CALCIUM</h6></div></td>
+                <td class="oceanic-blue" title="SCANDIUM"><div><h6>21</h6><h5>SC</h5><h6>SCANDIUM</h6></div></td>
+                <td class="oceanic-blue" title="TITANIUM"><div><h6>22</h6><h5>TI</h5><h6>TITANIUM</h6></div></td>
+                <td class="oceanic-blue" title="VANDIUM"><div><h6>23</h6><h5>V</h5><h6>VANDIUM</h6></div></td>
+                <td class="oceanic-blue" title="CHOROMIUM"><div><h6>24</h6><h5>CR</h5><h6>CHOROMIUM</h6></div></td>
+                <td class="oceanic-blue" title="MANGANESS"><div><h6>25</h6><h5>MN</h5><h6>MANGANESS</h6></div></td>
+                <td class="oceanic-blue" title="IRON"><div><h6>26</h6><h5>FE</h5><h6>IRON</h6></div></td>
+                <td class="oceanic-blue" title="COBALT"><div><h6>27</h6><h5>CO</h5><h6>COBALT</h6></div></td>
+                <td class="oceanic-blue" title="NICKEL"><div><h6>28</h6><h5>NI</h5><h6>NICKEL</h6></div></td>
+                <td class="oceanic-blue" title="COPPER"><div><h6>28</h6><h5>CU</h5><h6>COPPER</h6></div></td>
+                <td class="oceanic-blue" title="ZINC"><div><h6>30</h6><h5>ZN</h5><h6>ZINC</h6></div></td>
+                <td class="lightSteelBlue" title="GALLIUM"><div><h6>31</h6><h5>GA</h5><h6>GALLIUM</h6></div></td>
+                <td class="lightSlateGray" title="GERMANIUM" ><div><h6>32></h6><h5>GE</h5><h6>GERMANIUM</h6></div></td>
+                <td class="lightSlateGray" title="ARSENIC"><div><h6>33</h6><h5>AS</h5><h6>ARSENIC</h6></div></td>
+                <td class="light-red" title="SELENIUM"><div><h6>34</h6><h5>SE</h5><h6>SELENIUM</h6></div></td>
+                <td class="pink" title="BROMINE"><div><h6>35</h6><h5>BR</h5><h6>BROWINE</h6></div></td>
+                <td class="purple" title="KRYPTON"><div><h6>36</h6><h5>KR</h5><h6>KRYPTON</h6></div></td>
+            </tr>
+            <!--5th row-->
+            <tr>
+                <td class="light-choco" title="RUBIDIUM"><div><h6>37</h6><h5>RB</h5><h6>POTASSIUM</h6></div></td>
+                <td class="old-grass" title="CALCIUM"><div><h6>38</h6><h5>SR</h5><h6>CALCIUM</h6></div></td>
+                <td class="oceanic-blue" title="SCANDIUM"><div><h6>39</h6><h5>Y</h5><h6>SCANDIUM</h6></div></td>
+                <td class="oceanic-blue" title="TITANIUM"><div><h6>40</h6><h5>ZR</h5><h6>TITANIUM</h6></div></td>
+                <td class="oceanic-blue" title="VANDIUM"><div><h6>41</h6><h5>NB</h5><h6>VANDIUM</h6></div></td>
+                <td class="oceanic-blue" title="CHOROMIUM"><div><h6>42</h6><h5>MO</h5><h6>CHOROMIUM</h6></div></td>
+                <td class="oceanic-blue" title="MANGANESS"><div><h6>43</h6><h5>TC</h5><h6>MANGANESS</h6></div></td>
+                <td class="oceanic-blue" title="IRON"><div><h6>44</h6><h5>RU</h5><h6>IRON</h6></div></td>
+                <td class="oceanic-blue" title="COBALT"><div><h6>45</h6><h5>RH</h5><h6>COBALT</h6></div></td>
+                <td class="oceanic-blue" title="NICKEL"><div><h6>46</h6><h5>PD</h5><h6>NICKEL</h6></div></td>
+                <td class="oceanic-blue" title="COPPER"><div><h6>47</h6><h5>AH</h5><h6>COPPER</h6></div></td>
+                <td class="oceanic-blue" title="ZINC"><div><h6>48</h6><h5>CD</h5><h6>ZINC</h6></div></td>
+                <td class="lightSteelBlue" title="GALLIUM"><div><h6>49</h6><h5>IN</h5><h6>GALLIUM</h6></div></td>
+                <td class="lightSteelBlue" title="GERMANIUM" ><div><h6>50></h6><h5>SN</h5><h6>GERMANIUM</h6></div></td>
+                <td class="lightSlateGray" title="ARSENIC"><div><h6>51</h6><h5>SB</h5><h6>ARSENIC</h6></div></td>
+                <td class="lightSlateGray title="SELENIUM"><div><h6>52</h6><h5>TE</h5><h6>SELENIUM</h6></div></td>
+                <td class="pink" title="BROMINE"><div><h6>53</h6><h5>I</h5><h6>BROWINE</h6></div></td>
+                <td class="purple" title="KRYPTON"><div><h6>54</h6><h5>XR</h5><h6>KRYPTON</h6></div></td>
+            </tr>
+            <!--6th row-->
+            <tr>
+                <td class="light-choco" title="CAESIUM"><div><h6>55</h6><h5>CA</h5><h6>CAESIUM</h6></div></td>
+                <td class="old-grass" title="BARIUM"><div><h6>56</h6><h5>BA</h5><h6>BARIUM</h6></div></td>
+                <td class="light-grass" title="LANTHANOIDS"><div><h6>57-71</h6><h5></h5><h6>LANTHANOIDS</h6></div></td>
+                <td class="oceanic-blue" title="HAFNIUM"><div><h6>72</h6><h5>HF</h5><h6>HAFNIUM</h6></div></td>
+                <td class="oceanic-blue" title="TANTALUM"><div><h6>73</h6><h5>TA</h5><h6>TANTALUM</h6></div></td>
+                <td class="oceanic-blue" title="TUNGSTEN"><div><h6>74</h6><h5>W</h5><h6>TUNGSTEN</h6></div></td>
+                <td class="oceanic-blue" title="RHENIUM"><div><h6>75</h6><h5>RE</h5><h6>RHENIUM</h6></div></td>
+                <td class="oceanic-blue" title="OSMIUM"><div><h6>76</h6><h5>OS</h5><h6>OSMIUM</h6></div></td>
+                <td class="oceanic-blue" title="IRIDIUM"><div><h6>77</h6><h5>IR</h5><h6>IRIDIUM</h6></div></td>
+                <td class="oceanic-blue" title="PLATINUM"><div><h6>78</h6><h5>PT</h5><h6>PLATINUM</h6></div></td>
+                <td class="oceanic-blue" title="GOLD"><div><h6>79</h6><h5>AU</h5><h6>GOLD</h6></div></td>
+                <td class="oceanic-blue" title="MERCURY"><div><h6>80</h6><h5>HG</h5><h6>MERCURY</h6></div></td>
+                <td class="lightSteelBlue" title="THALLIUM"><div><h6>81</h6><h5>TL</h5><h6>THALLIUM</h6></div></td>
+                <td class="lightSteelBlue" title="LEAD" ><div><h6>82></h6><h5>PB</h5><h6>LEAD</h6></div></td>
+                <td class="lightSteelBlue" title="BISMUTH"><div><h6>83</h6><h5>BI</h5><h6>BISMUTH</h6></div></td>
+                <td class="lightSlateGray" title="POLONIUM"><div><h6>84</h6><h5>PO</h5><h6>POLONIUM</h6></div></td>
+                <td class="pink" title="ASTATINE"><div><h6>85</h6><h5>AT</h5><h6>ASTATINE</h6></div></td>
+                <td class="purple" title="RADON"><div><h6>86</h6><h5>RN</h5><h6>RADON</h6></div></td>
+            </tr>
+            <!--7th row-->
+            <tr>
+                <td class="light-choco" title="FRANCIUM"><div><h6>87</h6><h5>FR</h5><h6>FRANCIUM</h6></div></td>
+                <td class="old-grass" title="RADIUM"><div><h6>88</h6><h5>RA</h5><h6>RADIUM</h6></div></td>
+                <td class="light-grass" title="ACTINOIDS"><div><h6>89-103</h6><h5></h5><h6>ACTINOIDS</h6></div></td>
+                <td class="oceanic-blue" title="RUTHERFORDIUM"><div><h6>104</h6><h5>RF</h5><h6>RUTHERFORDIUM</h6></div></td>
+                <td class="oceanic-blue" title="DUBNIUM"><div><h6>105</h6><h5>DB</h5><h6>DUBNIUM</h6></div></td>
+                <td class="oceanic-blue" title="SEABORGIUM"><div><h6>106</h6><h5>SG</h5><h6>SEABORGIUM</h6></div></td>
+                <td class="oceanic-blue" title="BOHRIUM"><div><h6>107</h6><h5>BH</h5><h6>BOHRIUM</h6></div></td>
+                <td class="oceanic-blue" title="HASSIUM"><div><h6>108</h6><h5>HS</h5><h6>HASSIUM</h6></div></td>
+                <td class="oceanic-blue" title="MEITNERIUM"><div><h6>109</h6><h5>MT</h5><h6>MEITNERIUM</h6></div></td>
+                <td class="oceanic-blue" title="DARMSTADTIUM"><div><h6>110</h6><h5>DS</h5><h6>DARMSTADTIUM</h6></div></td>
+                <td class="oceanic-blue" title="ROENTGENIUM"><div><h6>111</h6><h5>RG</h5><h6>ROENTGENIUM</h6></div></td>
+                <td class="oceanic-blue" title="COPPERNIUM"><div><h6>112</h6><h5>CN</h5><h6>COPPERNIUM</h6></div></td>
+                <td class="lightSteelBlue" title="NIHONIUM"><div><h6>113</h6><h5>NH</h5><h6>NIHONIUM</h6></div></td>
+                <td class="lightSteelBlue" title="FLEROVIUM"><div><h6>114</h6><h5>FL</h5><h6>FLEROVIUM</h6></div></td>
+                <td class="lightSteelBlue" title="MOSCOVIUM"><div><h6>115</h6><h5>MC</h5><h6>MOSCOVIUM</h6></div></td>
+                <td class="lightSteelBlue" title="LIVERMORIUM"><div><h6>116</h6><h5>Lv</h5><h6>LIVERMORIUM</h6></div></td>
+                <td class="pink" title="TENNESSINE"><div><h6>117</h6><h5>TS</h5><h6>TENNESSINE</h6></div></td>
+                <td class="purple" title="OGANESSON"><div><h6>118</h6><h5>OG</h5><h6>OGANESSON</h6></div></td>
+            </tr>
+            <!--8th row-->
+            <tr>
+                <td colspan="18"></td>
+            </tr>
+            <!--9th row-->
+            <tr>
+                <td colspan="3" ></td>
+                <td class="light-grass" title="LANTHANUM"><div><h6>57</h6><h5>LA</h5><h6>LANTHANUM</h6></div></td>
+                <td class="light-grass" title="CERIUM"><div><h6>58</h6><h5>CA</h5><h6>CERIUM</h6></div></td>
+                <td class="light-grass" title="PRASEODYMIUM"><div><h6>59</h6><h5>PR</h5><h6>PRASEODYMIUM</h6></div></td>
+                <td class="light-grass" title="NEODYMIUM"><div><h6>60</h6><h5>ND</h5><h6>NEODYMIUM</h6></div></td>
+                <td class="light-grass" title="PROMETHIUM"><div><h6>61</h6><h5>PM</h5><h6>PROMETHIUM</h6></div></td>
+                <td class="light-grass" title="SAMARIUM"><div><h6>62</h6><h5>SM</h5><h6>SAMARIUM</h6></div></td>
+                <td class="light-grass" title="EUROPIUM"><div><h6>63</h6><h5>EU</h5><h6>EUROPIUM</h6></div></td>
+                <td class="light-grass" title="GADOLINIUM"><div><h6>64</h6><h5>GB</h5><h6>GADOLINIUM</h6></div></td>
+                <td class="light-grass" title="TERBIUM"><div><h6>65</h6><h5>TB</h5><h6>TERBIUM</h6></div></td>
+                <td class="light-grass" title="DYPROSIUM"><div><h6>66</h6><h5>DY</h5><h6>DYPROSIUM</h6></div></td>
+                <td class="light-grass" title="HOLMIUM"><div><h6>67</h6><h5>HO</h5><h6>HOLMIUM</h6></div></td>
+                <td class="light-grass" title="ERBIUM"><div><h6>68</h6><h5>ER</h5><h6>ERBIUM</h6></div></td>
+                <td class="light-grass" title="FERMIUM"><div><h6>69</h6><h5>TM</h5><h6>FERMIUM</h6></div></td>
+                <td class="light-grass" title="YTTERBIUM"><div><h6>80</h6><h5>YB</h5><h6>YTTERBIUM</h6></div></td>
+                <td class="light-grass" title="LUTETIUM"><div><h6>81</h6><h5>LU</h5><h6>LUTETIUM</h6></div></td>
+            </tr>
+            <!--10th row-->
+            <tr>
+                <td colspan="3" ></td>
+                <td class="light-grass" title="ACTINUM"><div><h6>89</h6><h5>AC</h5><h6>ACTINUM</h6></div></td>
+                <td class="light-grass" title="THORIUM"><div><h6>90</h6><h5>TH</h5><h6>THORIUM</h6></div></td>
+                <td class="light-grass" title="PROTACTIUM"><div><h6>91</h6><h5>PA</h5><h6>PROTACTIUM</h6></div></td>
+                <td class="light-grass" title="URANIUM"><div><h6>92</h6><h5>U</h5><h6>URANIUM</h6></div></td>
+                <td class="light-grass" title="NEPTUNIUM"><div><h6>93</h6><h5>NP</h5><h6>NEPTUNIUM</h6></div></td>
+                <td class="light-grass" title="PLUTONIUM"><div><h6>94</h6><h5>PU</h5><h6>PLUTONIUM</h6></div></td>
+                <td class="light-grass" title="AMERICIUM"><div><h6>95</h6><h5>AM</h5><h6>AMERICIUM</h6></div></td>
+                <td class="light-grass" title="CURIUM"><div><h6>96</h6><h5>CM</h5><h6>CURIUM</h6></div></td>
+                <td class="light-grass" title="BERKELIUM"><div><h6>97</h6><h5>BK</h5><h6>BERKELIUM</h6></div></td>
+                <td class="light-grass" title="CALIFONIUM"><div><h6>98</h6><h5>CF</h5><h6>CALIFONIUM</h6></div></td>
+                <td class="light-grass" title="EINSTEINIUM"><div><h6>99</h6><h5>ES</h5><h6>EINSTEINIUM</h6></div></td>
+                <td class="light-grass" title="FERMIUM"><div><h6>100</h6><h5>FM</h5><h6>FERMIUM</h6></div></td>
+                <td class="light-grass" title="MENEDELEVIUM"><div><h6>101</h6><h5>MD</h5><h6>MENEDELEVIUM</h6></div></td>
+                <td class="light-grass" title="NOBELIUM"><div><h6>102</h6><h5>NO</h5><h6>NOBELIUM</h6></div></td>
+                <td class="light-grass" title="LUTETIUM"><div><h6>103</h6><h5>LR</h5><h6>LUTETIUM</h6></div></td>
+            </tr>
+            
+
+
+
+        </tbody>
+    </table>
+</body>
+</html>
